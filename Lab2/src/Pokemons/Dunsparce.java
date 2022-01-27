@@ -1,7 +1,6 @@
 package Pokemons;
 
 import Moves.*;
-import ru.ifmo.se.pokemon.*;
 
 public class Dunsparce extends Pokemon {
     public Dunsparce(String name, int lvl) {
