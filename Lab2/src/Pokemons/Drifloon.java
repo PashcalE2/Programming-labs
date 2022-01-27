@@ -1,7 +1,6 @@
 package Pokemons;
 
 import Moves.*;
-import ru.ifmo.se.pokemon.*;
 
 public class Drifloon extends Pokemon {
     public Drifloon(String name, int lvl) {
