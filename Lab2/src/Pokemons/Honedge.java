@@ -1,7 +1,6 @@
 package Pokemons;
 
 import Moves.*;
-import ru.ifmo.se.pokemon.*;
 
 public class Honedge extends Pokemon {
     public Honedge(String name, int lvl) {
