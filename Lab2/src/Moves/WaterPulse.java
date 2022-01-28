@@ -11,7 +11,7 @@ public class WaterPulse extends SpecialMove {
     @Override
     protected void applyOppEffects(Pokemon p) {
         if (Math.random() > 0.2) {
-            double damage = ((0.4D * (double) p.getLevel() + 2.0D) * 40.0D / 150.0D) * p.getStat(Stat.ATTACK) / p.getStat(Stat.DEFENSE);
+            double damage = ((0.4D * p.getLevel() + 2.0D) * 40.0D / 150.0D) * p.getStat(Stat.ATTACK) / p.getStat(Stat.DEFENSE);
             p.addEffect((new Effect()).turns(4).stat(Stat.HP, (int) damage).chance(0.33D));
         }
     }
